@@ -1,3 +1,88 @@
-p{
-    font-family: Helvetica;
+div{
+    width: 100%;
+    text-align: center;
+}
+
+#logo{
+    position: relative;
+    top: 150px;
+    display: block;
+    margin: auto;
+}
+
+form{
+    position: relative;
+    top: 180px;
+    display: inline-block;
+}
+
+input[type="text"]{
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    width: 420px;
+    height: 22px;
+}
+
+input[type="text"]:focus{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+ul.nav-top{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+li.nav-top-left{
+    float: left;
+    margin-left: 20px;
+}
+
+li.nav-top-right{
+    float: right;
+    margin-right: 30px;
+}
+
+li a.nav-top {
+    display: block;
+    padding: 20px 4px;
+    text-decoration: none;
+    color: #000000;
+}
+
+ul.nav-bottom{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #ededed;
+}
+
+li.nav-bottom-left{
+    float: left;
+    margin-left: 20px;
+}
+
+li.nav-bottom-right{
+    float: right;
+    margin-right: 30px;
+}
+
+li a.nav-bottom{
+    display: block;
+    padding: 14px 4px;
+    text-decoration: none;
+    color: #000000;
 }
