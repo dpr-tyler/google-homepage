@@ -16,11 +16,30 @@ form{
     display: inline-block;
 }
 
+.buttons-group{
+    position: relative;
+    top: 210px;
+}
+
+.button{
+    background-color: #ededed;
+    font-size: 14px;
+    color: #585858;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
 input[type="text"]{
     border: 1px solid #d3d3d3;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: white;
-    padding: 10px 20px;
+    background-image: url('https://lh3.googleusercontent.com/proxy/uY-VfwsAggza9Z0LCKdIwzy2-k7ztn83G0WByF1HPIYdq7QR8zrQG4UJa4XRshnjAW2wA36JoJQr1P9jBrx3GzvV2dmc7kcBvP2ifvtPYL10eRS_R6fuk6PvD6r-r0yTQwTQRek7PGXhU2mnJOTfj8xlUT4JdzZd9eAPhzqR7oL8tZ4'), url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/534px-Google_mic.svg.png');
+    background-size: 3%, 2.75%;
+    background-repeat: no-repeat;
+    background-position: 3% 50%, 96% 50%;
+    padding: 10px 45px;
     width: 420px;
     height: 22px;
 }
@@ -84,5 +103,5 @@ li a.nav-bottom{
     display: block;
     padding: 14px 4px;
     text-decoration: none;
-    color: #000000;
+    color: #585858;
 }
